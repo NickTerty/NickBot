@@ -172,6 +172,36 @@ async def drink(interaction: discord.Interaction):
 
     await interaction.response.send_message(embed=embed)
 
+# Drink List
+@bot.tree.command(name="drink_list", description="列出所有會隨機選擇的飲料店")
+async def drink_list(interaction: discord.Interaction):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(current_dir, "drink.json")
+
+    if not os.path.exists(json_path):
+        await interaction.response.send_message("❌ 找不到飲料資料庫檔案 `drink.json`！")
+        return
+
+    with open(json_path, "r", encoding="utf-8") as f:
+        drinks_list = json.load(f)
+
+    if not drinks_list:
+        await interaction.response.send_message("⚠️ 飲料資料庫空空如也！")
+        return
+
+    list_text = ""
+    for index, drink_name in enumerate(drinks_list, start=1):
+        list_text += f"{index}. {drink_name}\n"
+
+    embed = discord.Embed(
+        title="手搖飲全系列地圖",
+        description=f"以下是目前資料庫內所有的飲料店：\n\n{list_text}",
+        color=discord.Color.teal()
+    )
+    embed.set_footer(text=f"總共幫你找到了 {len(drinks_list)} 家飲料店")
+
+    await interaction.response.send_message(embed=embed)
+
 # Token
 TOKEN = os.getenv("BOT_TOKEN")
 bot.run(TOKEN)
