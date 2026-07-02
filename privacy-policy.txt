@@ -1,6 +1,6 @@
 Privacy Policy for NickBot
 
-This Privacy Policy governs the collection, use, and sharing of personal information by [Bot Name], a Discord bot developed by NickTerty. By using NickBot, you agree to the terms of this Privacy Policy.
+This Privacy Policy governs the collection, use, and sharing of personal information by NickBot, a Discord bot developed by NickTerty. By using NickBot, you agree to the terms of this Privacy Policy.
 
 Information We Collect
 
