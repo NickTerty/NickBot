@@ -27,7 +27,8 @@ async def on_ready():
 @app_commands.choices(district=[
     app_commands.Choice(name="中西區 (府城校區周邊)", value="中西區"),
     app_commands.Choice(name="東區 (榮譽校區/育樂街)", value="東區"),
-    app_commands.Choice(name="南區 (大成路/新興路周邊)", value="南區")
+    app_commands.Choice(name="南區 (大成路/新興路周邊)", value="南區"),
+    app_commands.Choice(name="北區", value="北區")
 ])
 async def lunch(interaction: discord.Interaction, district: app_commands.Choice[str]):
     current_dir = os.path.dirname(os.path.abspath(__file__))
