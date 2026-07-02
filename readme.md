@@ -5,4 +5,4 @@ Tainan is my city which I was born and grow up. I know Tainan is famous for food
 - Updated more list for restaurant
 - Add new district: 北區 (North District).
 - The bot can test globally, no need to denote testing server.
-- TOS
+- TOS & Privacy Policy
