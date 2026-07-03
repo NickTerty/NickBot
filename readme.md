@@ -12,3 +12,4 @@ Tainan is my city which I was born and grow up. I know Tainan is famous for food
 ## Changelog: 7/3/2026
 - New command: `/drink_list`
 - More lists for restaurants and drinks.
+- Deleted some ghost commands
