@@ -1,0 +1,28 @@
+TERMS OF SERVICE AGREEMENT
+
+Effective Date: 11/15/2026
+
+This Terms of Service Agreement (the "Agreement") is entered into between NickTerty ("Bot Owner") and the user ("User") of the NickBot Discord bot (the "Bot").
+
+By using the Bot, the User agrees to be bound by the terms of this Agreement and by the Bot's Privacy Policy. If the User does not agree to the terms of this Agreement, they should immediately discontinue use of the Bot.
+
+1. Description of Service: The Bot provides slash commands (/lunch, /lunch_list, /drink, etc.) that randomly recommend or list restaurants and drink shops in Tainan, based on a list maintained by the Bot Owner. The Bot is provided free of charge.
+2. Use of the Bot: The Bot Owner grants the User a non-exclusive, non-transferable, limited license to use the Bot for personal or non-commercial purposes. The User must also comply with Discord's Terms of Service and Community Guidelines.
+3. Prohibited Use: The User may not:
+   (a) use the Bot in any way that violates applicable laws, rules, or regulations or infringes upon the rights of any third party;
+   (b) spam commands, use automation or scripts to send commands, or try to get around the Bot's rate limits (cooldowns);
+   (c) try to disrupt, overload, reverse engineer, or gain unauthorized access to the Bot or the systems it runs on;
+   (d) use the Bot for any commercial purposes without the express written consent of the Bot Owner.
+   The Bot applies rate limits automatically, and the Bot Owner may restrict access for Users who break these rules.
+4. Accuracy of Information: Restaurant and drink shop recommendations are for reference and entertainment only. Business hours, prices, and availability may change, and listed businesses may relocate or close. The Bot Owner does not guarantee that any information is accurate, complete, or up to date, and is not affiliated with or endorsed by any listed business. Price levels are rough estimates.
+5. Limitation of Liability: The Bot is provided "as is" and "as available", without warranties of any kind. The Bot Owner shall not be liable for any damages arising out of the use or inability to use the Bot, including but not limited to damages for loss of profits, loss of data, or other intangible losses, or any experience with a recommended business.
+6. Availability and Modifications: The Bot is hosted on third-party infrastructure and may be unavailable at times. The Bot Owner may modify, suspend, or discontinue the Bot, its commands, or its data at any time without notice, and shall not be liable to the User or any third party for doing so.
+7. Intellectual Property: The Bot and all intellectual property rights therein are and shall remain the property of the Bot Owner. The User agrees not to copy, modify, or distribute the Bot or any portion thereof without the express written consent of the Bot Owner, except as permitted by any license published in the Bot's source code repository. Business names belong to their respective owners.
+8. Indemnification: The User agrees to indemnify and hold harmless the Bot Owner from any and all claims, damages, liabilities, costs, and expenses, including reasonable attorneys' fees, arising out of the User's misuse of the Bot or violation of this Agreement.
+9. Termination: This Agreement may be terminated by either party at any time for any reason. Server administrators may remove the Bot from their server at any time. Upon termination, the User must immediately cease all use of the Bot.
+10. Changes to this Agreement: The Bot Owner may update this Agreement from time to time. The updated version will be published in the Bot's GitHub repository with a new effective date. Continued use of the Bot after changes means the User accepts the updated Agreement.
+11. Governing Law: This Agreement shall be governed by and construed in accordance with the laws of Taiwan. Any dispute arising under or in connection with this Agreement shall be resolved by arbitration in accordance with the rules of the Chinese Arbitration Association, Taipei.
+12. Entire Agreement: This Agreement, together with the Privacy Policy, constitutes the entire agreement between the parties and supersedes all prior or contemporaneous agreements or representations, whether written or oral, relating to the Bot.
+13. Contact: Questions about this Agreement may be sent to nickterty0922@gmail.com.
+
+By using the Bot, the User acknowledges that they have read this Agreement, understand it, and agree to be bound by its terms and conditions.

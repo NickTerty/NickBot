@@ -1,0 +1,61 @@
+Privacy Policy for NickBot
+
+Effective Date: 11/15/2026
+
+This Privacy Policy explains what information NickBot ("the Bot"), a Discord bot developed by NickTerty, processes when you use it. By using the Bot, you agree to this Privacy Policy.
+
+1. What the Bot Does
+
+NickBot only responds to its slash commands (/lunch, /lunch_list, /drink, etc.) It randomly recommends restaurants and drink shops in Tainan, using a fixed list maintained by the Bot Owner.
+
+2. Information We Process
+
+When you use a slash command, Discord sends the Bot the information needed to respond to that command, including:
+- your Discord user ID,
+- the server and channel where the command was used,
+- the command options you selected (for example, the district and budget).
+
+The Bot does NOT:
+- read, collect, or store the content of your messages (the Bot does not request the Message Content intent),
+- collect your email address, IP address, voice data, or files,
+- track your activity outside of your own use of its commands.
+
+3. How We Use Your Information
+
+The information above is used only to:
+- reply to your command, and
+- enforce a short rate limit (cooldown) to prevent spam and abuse. Your user ID is kept in temporary memory for a few seconds for this purpose, and is cleared whenever the Bot restarts.
+
+We do not use your information for advertising, profiling, analytics, or training any model.
+
+4. Data Storage and Retention
+
+The Bot does not keep a database of users and does not permanently store any personal information. Technical logs (for example, error reports) are kept on the hosting provider to keep the Bot running. These logs record the command name and error details. They are not used to identify individual users and are deleted according to the hosting provider's log retention.
+
+5. Third Parties
+
+We do not sell, rent, or share your information. The Bot relies on the following third-party services, which have their own privacy policies:
+- Discord (https://discord.com/privacy), which delivers commands and messages,
+- Railway (https://railway.com/legal/privacy), which hosts the Bot.
+
+We may disclose information if required by law or a valid legal request.
+
+6. Children
+
+The Bot is intended for users who meet Discord's minimum age requirement in their country.
+
+7. Security
+
+Access tokens and credentials are stored as protected environment variables and are never included in the source code. Bot messages are configured so that they cannot mention (ping) users, roles, or @everyone. However, no system is perfectly secure, and we cannot guarantee absolute security.
+
+8. Your Rights
+
+Because the Bot does not permanently store personal information, there is normally nothing to delete. If you have questions or any concerns, please contact us and we will respond within a reasonable time.
+
+9. Changes to this Policy
+
+We may update this Privacy Policy from time to time. The updated version will be published in the Bot's GitHub repository with a new effective date. Your continued use of the Bot after changes means you accept the updated policy.
+
+10. Contact Us
+
+If you have any questions about this Privacy Policy, please contact: nickterty0922@gmail.com
